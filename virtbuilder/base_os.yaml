@@ -1,0 +1,16 @@
+#!/bin/env python3
+
+config:
+    DOMAIN           : jaredcrean.com
+    OS_FLAV          : opensuse-tumbleweed
+    HOST_NAME        : test
+    IP_ADDR          : 192.168.122.207
+    DISK_SIZE        : 15G
+    RAM              : 512
+    NUM_CPU          : 1
+    DISK_FORMAT      : qcow2
+    TIME_ZONE        : MST
+    PACKAGES_INSTALL : wget
+    PASSWORD         : password:Password
+    FORMAT           : qcow2
+    OUTPUT_DISK      : /ZFS_SATADATASTORE/Virtual-machine/test.jaredcrean.com
