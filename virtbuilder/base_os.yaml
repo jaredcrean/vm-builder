@@ -13,4 +13,4 @@ config:
     PACKAGES_INSTALL : wget
     PASSWORD         : password:Password
     FORMAT           : qcow2
-    OUTPUT_DISK      : /ZFS_SATADATASTORE/Virtual-machine/test.jaredcrean.com
+    OUTPUT_DISK      : /location/of/machine/test.example.com
