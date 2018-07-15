@@ -11,7 +11,7 @@ os_file = args.Os_Config_File
 
 def yml_import(filepath):
         with open(filepath, 'r') as f:
-            config = yaml.load(f)
+            config = yaml.safe_load(f)
             os_settings = config['config']
         return os_settings
 
